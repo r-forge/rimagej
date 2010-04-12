@@ -28,12 +28,13 @@ ImageJ macro language
 }
 \examples{
 \dontrun{
-download.file( "http://www.google.fr/intl/en_en/images/logo.gif", dest = "google.gif" )
-image = IJ$openImage( "google.gif" )
+download.file("http://www.google.fr/intl/en_en/images/logo.gif",
+    dest = "google.gif")
+image = IJ$openImage("google.gif")
 image$show()
-IJ$run( "8-bit" )
-IJ$run( "Invert" )
+IJ$run("8-bit")
+IJ$run("Invert")
 image$close()
 }
 }
-\keyword{datasets}
+\keyword{utilities}
