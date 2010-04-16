@@ -13,7 +13,7 @@ and analysis platform ImageJ
 \tabular{ll}{
 Package: \tab RImageJ\cr
 Type: \tab Package\cr
-Version: \tab 0.2-142\cr
+Version: \tab 0.2-143\cr
 Date: \tab 2010-02-18\cr
 License: \tab GPL-3\cr
 LazyLoad: \tab yes\cr
