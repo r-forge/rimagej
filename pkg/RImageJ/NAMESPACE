@@ -1,3 +1,6 @@
 import("rJava")
 export(IJ) 
 
+importFrom( "grDevices", "as.raster" )
+S3method( "as.raster", "jobjRef" )
+

@@ -13,18 +13,19 @@ and analysis platform ImageJ
 \tabular{ll}{
 Package: \tab RImageJ\cr
 Type: \tab Package\cr
-Version: \tab 0.1-142\cr
-Date: \tab 2009-10-28\cr
+Version: \tab 0.2-142\cr
+Date: \tab 2010-02-18\cr
 License: \tab GPL-3\cr
 LazyLoad: \tab yes\cr
 }
 }
 \author{
-Romain Francois
+Romain Francois for the R package
+Wayne Rasband for ImageJ
 
-Maintainer: Romain Francois <francoisromain@free.fr>
+Maintainer: Romain Francois <romain@r-enthusiasts.com>
 }
 \references{
-ImageJ: http://rsbweb.nih.gov/ij/index.html
+ImageJ: \url{http://rsbweb.nih.gov/ij/index.html}
 }
 \keyword{ package }

@@ -28,9 +28,8 @@ ImageJ macro language
 }
 \examples{
 \dontrun{
-download.file("http://www.google.fr/intl/en_en/images/logo.gif",
-    dest = "google.gif")
-image = IJ$openImage("google.gif")
+logo <- system.file( "images", "R.jpg", package = "RImageJ" )
+image <- IJ$openImage( logo )
 image$show()
 IJ$run("8-bit")
 IJ$run("Invert")
