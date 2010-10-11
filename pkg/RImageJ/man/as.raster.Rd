@@ -23,14 +23,14 @@
   Contributed by Paul Murrell \url{http://www.stat.auckland.ac.nz/~paul/}
 }
 
-\seealso{
-  \link[grDevices]{as.raster}, \link[graphics]{raster}
-}
+\seealso{ \code{\link[grDevices]{as.raster}}, \code{\link[graphics]{raster}} }
 
 \examples{
 \dontrun{
+## Load an image in ImageJ
 logo <- system.file("images", "R.jpg", package = "RImageJ")
 image <- IJ$openImage(logo)
+## Use this image in a R plot
 plot(c(100, 250), c(300, 450), type = "n", xlab = "", ylab = "")
 raster(image, 100, 300, 150, 350, interpolate = FALSE)
 raster(image, 100, 400, 150, 450)

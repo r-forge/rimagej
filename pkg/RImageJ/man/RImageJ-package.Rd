@@ -5,7 +5,7 @@
 \title{ R bindings for ImageJ }
 
 \description{
-  Bindings between R and the java based image processing and analysis platform
+  Bindings between R and the Java based image processing and analysis platform
   ImageJ.
 }
 
@@ -13,8 +13,8 @@
   \tabular{ll}{
     Package: \tab RImageJ\cr
     Type: \tab Package\cr
-    Version: \tab 0.2-144\cr
-    Date: \tab 2010-10-09\cr
+    Version: \tab 0.2-145\cr
+    Date: \tab 2010-10-11\cr
     License: \tab GPL-3\cr
     LazyLoad: \tab yes\cr
   }

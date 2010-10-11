@@ -9,5 +9,5 @@
 	#       rely on genericDialog still do not work. The only solution I [PhG]
 	#       have found until now is to start RImageJ from within JGR.
 	.jpackage(pkgname)
-	cat("ImageJ version: ", IJ$getVersion(), "\n", sep = "")
+	packageStartupMessage("ImageJ version: ", IJ$getVersion(), "\n", sep = "")
 }
