@@ -32,10 +32,10 @@ logo <- system.file("images", "R.jpg", package = "RImageJ")
 image <- IJ$openImage(logo)
 ## Use this image in a R plot
 plot(c(100, 250), c(300, 450), type = "n", xlab = "", ylab = "")
-raster(image, 100, 300, 150, 350, interpolate = FALSE)
-raster(image, 100, 400, 150, 450)
-raster(image, 200, 300, 200 + xinch(.5), 300 + yinch(.3), interpolate = FALSE)
-raster(image, 200, 400, 250, 450, angle = 15, interpolate = FALSE)
+rasterImage(image, 100, 300, 150, 350, interpolate = FALSE)
+rasterImage(image, 100, 400, 150, 450)
+rasterImage(image, 200, 300, 200 + xinch(.5), 300 + yinch(.3), interpolate = FALSE)
+rasterImage(image, 200, 400, 250, 450, angle = 15, interpolate = FALSE)
 }
 }
 

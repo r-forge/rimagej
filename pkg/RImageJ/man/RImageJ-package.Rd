@@ -18,9 +18,8 @@
     License: \tab GPL-3\cr
     LazyLoad: \tab yes\cr
   }
-}
+  
 
-\details{
   On certain Mac OS X systems (like Snow Leopard), it is impossible to start AWT
   from rJava started from R.app or from the terminal. Since ImageJ depends on
   AWT, it will not run. The solution is to use R and RImageJ from within JGR
