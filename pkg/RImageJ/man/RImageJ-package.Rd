@@ -13,14 +13,14 @@
   \tabular{ll}{
     Package: \tab RImageJ\cr
     Type: \tab Package\cr
-    Version: \tab 0.2-145\cr
-    Date: \tab 2010-10-11\cr
+    Version: \tab 0.2-146\cr
+    Date: \tab 2010-10-24\cr
     License: \tab GPL-3\cr
     LazyLoad: \tab yes\cr
   }
   
 
-  On certain Mac OS X systems (like Snow Leopard), it is impossible to start AWT
+  On certain Mac OS X versions (like Snow Leopard), it is impossible to start AWT
   from rJava started from R.app or from the terminal. Since ImageJ depends on
   AWT, it will not run. The solution is to use R and RImageJ from within JGR
   \url{http://www.rforge.net/JGR/}.

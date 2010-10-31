@@ -1,5 +1,5 @@
 Package: RImageJ
-Version: 0.3-144
+Version: 0.2-146
 Date: 2010-10-24
 Title: R bindings for ImageJ
 Author: Romain Francois, Philippe Grosjean with contributions from Paul Murrell

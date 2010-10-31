@@ -32,7 +32,7 @@ IJ
   \url{http://rsbweb.nih.gov/ij/developer/macro/macros.html}
 }
 
-\seealso{ \code{\link{IJWindowManager}} }
+\seealso{ \code{\link{ImageJ}}, \code{\link{IJWindowManager}} }
 
 \examples{
 \dontrun{

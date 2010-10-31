@@ -23,7 +23,7 @@ IJWindowManager
   \url{http://rsbweb.nih.gov/ij/developer/api/ij/WindowManager.html}
 }
 
-\seealso{ \code{\link{IJ}} }
+\seealso{ \code{\link{ImageJ}}, \code{\link{IJ}} }
 
 \examples{
 \dontrun{
